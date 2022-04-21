@@ -15,10 +15,13 @@ def index(request):
     ##httpresponse use to return string
 
 def education(request):
-    return HttpResponse("These are my educations")
+    return render(request, 'education.html')
+    # return HttpResponse("These are my educations")
 
 def about(request):
-    return HttpResponse("This is page is about prachi")
+    return render(request, 'about.html')
+    # return HttpResponse("This is page is about prachi")
 
 def contact(request):
-    return HttpResponse("This is contact page.")
+    return render(request, 'contact.html')
+    # return HttpResponse("This is contact page.")

@@ -1,15 +1,4 @@
-<!DOCTYPE html>  
-<html ng-app="app">  
-<head>  
-    <meta charset="utf 8">
-    <title>Guru99</title>     
-</head>  
-<body>
-    <h1>This is Index.html page</h1>
-    <p> Variable adding....{{ variable}}
-        <br>{{var2}}<br>{{myname}}
-    </p>
+{% extends 'base.html' %}
 
-
-</body>  
-</html>
+{% block title %}Prachi Agrawal{% endblock title %}
+{% block body %}Hello, this is Prachi Agrawal Main page.{% endblock body %}
