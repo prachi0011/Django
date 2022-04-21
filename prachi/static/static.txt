@@ -1,0 +1,1 @@
+This is static file which can server see. Don't add sensitive information here.
